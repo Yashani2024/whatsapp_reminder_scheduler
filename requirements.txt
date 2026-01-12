@@ -1,0 +1,18 @@
+# WhatsApp Reminder Manager - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies (required)
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+schedule>=1.2.0
+
+# GUI (tkinter is built-in to Python, no install needed)
+
+# For system tray support and icons
+pillow>=10.4.0
+pystray>=0.19.0
+
+# For process priority and performance monitoring
+psutil>=5.9.0
+
+# Database (SQLite is built-in to Python, no install needed)
